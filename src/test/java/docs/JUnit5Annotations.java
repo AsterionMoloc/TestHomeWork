@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class Junit5Annotations {
+class Junit5Annotations {
 
     @BeforeAll
     static void setup() {
