@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4831ebe1-c716-4d05-b19f-8e77617fd016" name="Default Changelist" comment="added .Junit5Annotations">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TstHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TstHomeWork.java" afterDir="false" />
-    </list>
+    <list default="true" id="4831ebe1-c716-4d05-b19f-8e77617fd016" name="Default Changelist" comment="upd TstForm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +66,7 @@
       <recent name="C:\Users\Max\IdeaProjects\TestHomeWork\src\test\resources\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TstHomeWork.TstForm">
+  <component name="RunManager" selected="Gradle.TstHomeWork">
     <configuration name="JUnit5Annotations.SomeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,8 +151,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TstHomeWork.TstForm" />
         <item itemvalue="Gradle.TstHomeWork" />
+        <item itemvalue="Gradle.TstHomeWork.TstForm" />
         <item itemvalue="Gradle.JUnit5Annotations.SomeTest" />
         <item itemvalue="Gradle.TestHomeWork" />
       </list>
@@ -217,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617943962973</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="upd TstForm">
+      <created>1617965757208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617965757208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,7 +235,8 @@
     <MESSAGE value="added .gitignore" />
     <MESSAGE value="added .build gradle" />
     <MESSAGE value="added .Junit5Annotations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .Junit5Annotations" />
+    <MESSAGE value="upd TstForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd TstForm" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
