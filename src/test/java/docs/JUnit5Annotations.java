@@ -1,59 +1,30 @@
 package docs;
 
-import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-class Junit5Annotations {
+import static org.junit.jupiter.api.Assertions.assertTrue; ...
+
+public class JUnit5Annotations {
 
     @BeforeAll
-    static void setup() {
+    static void setup(){
         System.out.println("setup here");
     }
 
-    @BeforeEach
-    void beforeEach() {
-        System.out.println("    beforeEach here");
-    }
-
-    @BeforeEach
-    void beforeEach1() {
-        System.out.println("    beforeEach1 here");
-    }
-
     @Test
-    @DisplayName("Some test")
+    @DisplayName("Some Test")
     void someTest() {
-        System.out.println("        someTest here");
+        System.out.println("some test here");
         assertTrue(true);
     }
 
     @Test
-    @DisplayName("Another test")
-    void anotherTest() {
-        System.out.println("        anotherTest here");
+    @DisplayName("Another Test")
+    void anotherTest(){
         assertTrue(true);
     }
 
-    @AfterEach
-    void after() {
-        System.out.println("    afterEach here");
-    }
-
-    @AfterAll
-    static void shutDown() {
-        System.out.println("shutdown here");
-    }
-
-
-//    setup here
-//    beforeEach1 here
-//    beforeEach here
-//    anotherTest here
-//    afterEach here
-//    beforeEach1 here
-//    beforeEach here
-//    someTest here
-//    afterEach here
-//    shutdown here
 }
